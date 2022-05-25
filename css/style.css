@@ -1,0 +1,146 @@
+body {
+  background: lightblue;
+}
+.brand-logo {
+  color: black;
+}
+.search {
+  margin: 0 auto;
+  width: 70%;
+  border-top: solid 1px grey;
+  color: #fff;
+}
+.poke-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  justify-content: center;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.pokemon {
+  background: whitesmoke;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 10px 10px 10px rgba(100, 100, 100, 0.6);
+}
+.pokemon .img-container {
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: white;
+  margin-bottom: 50px;
+}
+.pokemon .img-container img {
+  max-width: 90%;
+  height: 200px;
+  width: 200px;
+}
+.pokemon .img-container img:hover {
+  transition: transform 0.2s;
+  transform: scale(1.5);
+}
+
+.pokemon .pokeNumber {
+  background-color: #fff;
+  border-radius: 50px;
+
+  padding: 10px 10px;
+}
+.pokemon .pokeName {
+  margin: 15px 0 7px;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+.pokemon .pokeType {
+  letter-spacing: 1px;
+  color: gray;
+}
+
+.nav-wrapper {
+  padding: 0 50px;
+  background-color: rgb(61, 155, 44);
+}
+
+.logo {
+  margin-top: 7px;
+  width: 50px;
+  height: 50px;
+}
+
+.progress {
+  min-height: 36px;
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  display: inline-block;
+}
+.determinate {
+  width: 0;
+  transition: width 1s ease-in-out;
+  padding: 8px;
+  position: relative;
+  color: #fff;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.image-thumb {
+  width: 200px;
+  height: 200px;
+}
+
+.split {
+  border-bottom: solid 1px gray;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+  margin: 10px;
+}
+.modal-content {
+  text-align: center;
+}
+.dis-flex {
+  justify-content: space-around;
+}
+
+.modal1_content {
+  max-width: 1200px;
+}
+.move {
+  height: 4em;
+  text-align: right;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.type {
+  padding: 10px;
+  background-color: antiquewhite;
+}
+td {
+  text-align: center;
+}
+.page-footer {
+  background-color: rgb(61, 155, 44);
+  margin-top: 168px;
+}
+#mySearch::placeholder {
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: black;
+}
+table.striped > tbody > tr:nth-child(odd) {
+  background-color: unset;
+}
